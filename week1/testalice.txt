@@ -1,0 +1,113 @@
+[INFO] Done reading stopw, read: 17 words
+Current Word: ALICE
+Current Word: S
+Current Word: ADVENTURES
+Current Word: IN
+Current Word: WONDERLAND
+Current Word: Lewis
+Current Word: Carroll
+Current Word: THE
+Current Word: MILLENNIUM
+Current Word: FULCRUM
+Current Word: EDITION
+Current Word: CHAPTER
+Current Word: I
+Current Word: Down
+Current Word: the
+Current Word: Rabbit
+Current Word: Hole
+Current Word: Alice
+Current Word: was
+Current Word: beginning
+Current Word: to
+Current Word: get
+Current Word: very
+Current Word: tired
+Current Word: of
+Current Word: sitting
+Current Word: by
+Current Word: her
+Current Word: sister
+Current Word: on
+Current Word: the
+Current Word: bank
+Current Word: and
+Current Word: of
+Current Word: having
+Current Word: nothing
+Current Word: to
+Current Word: do
+Current Word: once
+Current Word: or
+Current Word: twice
+Current Word: she
+Current Word: had
+Current Word: peeped
+Current Word: into
+Current Word: the
+Current Word: book
+Current Word: her
+Current Word: sister
+Current Word: was
+Current Word: reading
+Current Word: but
+Current Word: it
+Current Word: had
+Current Word: no
+Current Word: pictures
+Current Word: or
+Current Word: conversations
+Current Word: in
+Current Word: it
+Current Word: and
+Current Word: what
+Current Word: is
+Current Word: the
+Current Word: use
+Current Word: of
+Current Word: a
+Current Word: book
+Current Word: thought
+Current Word: Alice
+Current Word: without
+Current Word: pictures
+Current Word: or
+Current Word: conversation
+[INFO] Table sorted. Total unique words: 35
+
+--- INDEX TABLE ---
+alice           1, 1
+bank            1, 16
+beginning       1, 15
+book            2, 17, 18
+but             1, 17
+by              1, 15
+chapter         1, 10
+conversation    1, 19
+conversations   1, 18
+do              1, 16
+get             1, 15
+had             2, 16, 17
+having          1, 16
+her             2, 15, 17
+into            1, 17
+is              1, 18
+no              1, 17
+nothing         1, 16
+on              1, 16
+once            1, 16
+or              3, 16, 18, 19
+peeped          1, 17
+pictures        2, 18, 19
+reading         1, 17
+sister          2, 15, 17
+sitting         1, 15
+thought         1, 19
+tired           1, 15
+to              2, 15, 16
+twice           1, 16
+use             1, 18
+very            1, 15
+was             2, 15, 17
+what            1, 18
+without         1, 19
