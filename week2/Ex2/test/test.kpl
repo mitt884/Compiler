@@ -1,0 +1,22 @@
+PROGRAM TestProgram;
+
+(* Block comment: this should be skipped by scanner *)
+
+VAR
+  s : STRING;
+  b : BYTES;
+  x : INTEGER;
+  y : INTEGER;
+
+BEGIN
+  // line comment: increment and check modulo and power operations
+  s := "hello world";
+  b := "rawbytes"; // bytes literal not yet special-cased, but keyword BYTES exists
+  x := 10 % 3;
+  y := 2 ** 10;
+
+  REPEAT
+    x := x + 1;
+  UNTIL x > 5;
+
+END.
