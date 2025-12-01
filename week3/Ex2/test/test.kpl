@@ -1,0 +1,29 @@
+PROGRAM TestNewFeatures;
+VAR
+  x : INTEGER;
+  y : INTEGER;
+  z : INTEGER;
+  sum : INTEGER;
+
+BEGIN
+  (* Test 1: Gan da bien *)
+  x, y, z := 1, 2, 3;
+  
+  CALL WriteI(x);
+  CALL WriteI(y);
+  CALL WriteI(z);
+  
+  (* Test 2: Repeat Until *)
+  sum := 0;
+  REPEAT
+    sum := sum + x;
+    x := x + 1;
+    
+    (* Gan da bien trong vong lap *)
+    y, z := y * 2, z * 2;
+    
+    CALL WriteLn;
+    CALL WriteI(sum);
+  UNTIL sum > 10;
+
+END.
