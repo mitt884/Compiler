@@ -1,0 +1,27 @@
+program program2;
+
+var
+    n: integer;
+    sum: integer;
+    digit: integer;
+    temp: integer;
+
+begin
+    n := 1234;
+    sum := 0;
+
+    while n > 0 do
+    begin
+        digit := n;
+        temp := 0;
+
+        while digit >= 10 do
+        begin
+            digit := digit - 10;
+            temp := temp + 1;
+        end;
+
+        sum := sum + digit;
+        n := temp;
+    end;
+end.
